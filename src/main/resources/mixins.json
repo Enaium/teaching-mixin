@@ -1,0 +1,8 @@
+{
+  "minVersion": "0.8",
+  "compatibilityLevel": "JAVA_8",
+  "package": "cn.enaium.learn.mixin.mixin",
+  "mixins": [
+    "MainMixin"
+  ]
+}

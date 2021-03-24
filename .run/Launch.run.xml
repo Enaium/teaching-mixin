@@ -1,0 +1,11 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Launch" type="Application" factoryName="Application" nameIsGenerated="true">
+    <option name="MAIN_CLASS_NAME" value="net.minecraft.launchwrapper.Launch" />
+    <module name="Mixin.main" />
+    <option name="PROGRAM_PARAMETERS" value="--tweakClass cn.enaium.learn.mixin.launch.Tweaker" />
+    <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/run" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
