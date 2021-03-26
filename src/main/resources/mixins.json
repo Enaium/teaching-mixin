@@ -3,6 +3,6 @@
   "compatibilityLevel": "JAVA_8",
   "package": "cn.enaium.learn.mixin.mixin",
   "mixins": [
-    "MainMixin"
+    "ProgramMixin"
   ]
 }

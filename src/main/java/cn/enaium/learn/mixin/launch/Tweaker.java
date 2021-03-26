@@ -21,7 +21,6 @@ public class Tweaker implements ITweaker {
 
     @Override
     public void injectIntoClassLoader(LaunchClassLoader classLoader) {
-//        classLoader.registerTransformer(Transform.class.getName());
         MixinBootstrap.init();
         Mixins.addConfiguration("mixins.json");
     }
