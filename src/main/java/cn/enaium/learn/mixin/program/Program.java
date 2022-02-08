@@ -5,15 +5,11 @@ package cn.enaium.learn.mixin.program;
  * Author: Enaium
  */
 public class Program {
-    private final String name = "Enaium";
-
-    private void hello() {
-        System.out.println("HELLO WORLD!");
+    public int get() {
+        return 888;
     }
 
-    //
-// @Invoker principle:
-//    public void cHello() {
-//        hello();
-//    }
+    public int g() {
+        return get();
+    }
 }
